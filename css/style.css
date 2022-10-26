@@ -1,0 +1,64 @@
+/* logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  height: 70px;
+}
+
+.left button, .right button {
+  padding: 10px;
+}
+
+.left button {
+  background-color: rgb(52, 228, 255);
+}
+
+.right button {
+  background-color: rgb(236, 255, 88);
+}
+
+.center a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* column */
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.meal1, .meal2, .meal3 {
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.meal1 {
+  background-image: url("../images/steak.png");
+}
+
+.meal2 {
+  background-image: url("../images/soup.png");
+}
+
+.meal3 {
+  background-image: url("../images/cheesecake.png")
+
+.text {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: auto;
+}
